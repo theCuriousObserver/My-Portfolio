@@ -1,9 +1,11 @@
 import React from 'react';
 import './AboutMe.css';
+import StarrySky from './StarrySky';
 
 const AboutMe = () => {
     return (
         <div className="about-me" id="about-me">
+            <StarrySky />
             <div className="about-me-content">
                 <h1 className="about-me-heading">Know Me More</h1>
                 <div className="about-me-text">
