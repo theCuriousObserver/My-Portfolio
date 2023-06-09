@@ -16,9 +16,9 @@ const AboutMe = () => {
                 </div>
                 <div className="about-me-details">
                     <h2>Pallav Avatarit</h2>
-                    <p><a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                    <p><a href="mailto:pallav.avatarit12@gmail.com">pallav.avatarit12@gmail.com</a></p>
                     <p>Your Location</p>
-                    <a href="my-cv.pdf" download className="cv-button">Download My CV</a>
+                    <a href="my-cv.pdf" download className="cv-button">Download CV📜</a>
                 </div>
             </div>
         </div>
