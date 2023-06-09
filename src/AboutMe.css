@@ -1,0 +1,74 @@
+.about-me {
+    background-color: #212529;
+    color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .about-me-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-me-heading {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+  }
+  
+  .about-me-subheading {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-subheading .highlight {
+    color: #28a846;
+  }
+  
+  .about-me-text p {
+    font-size: 1em;
+    color: #fff;
+  }
+  
+  .about-me-details {
+    max-width: 50%;
+  }
+  
+  .about-me-details h2 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .about-me-details p {
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .about-me-details a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .about-me-details .cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-me-details .cv-button:hover {
+    background-color: #FF7F50;
+  }
