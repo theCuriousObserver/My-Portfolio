@@ -1,8 +1,7 @@
 .resume {
     background-image: url('./Nebula-background.jpeg');
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 20px 50px 50px;
     box-sizing: border-box;
@@ -10,11 +9,50 @@
     flex-direction: column;
     position: relative;
     height: 100vh;
-}
-
-.resume-heading {
+  }
+  
+  .resume-content {
+    position: relative;
+    z-index: 1;
+    margin-top: 3%; /* This will push the heading down */
+  }
+  
+  .resume-heading-container {
+    text-align: center;
+    margin-top: 5%; /* This will push the heading down */
+  }
+  
+  .resume-heading {
     font-size: 3em;
-    color: rgba(255, 255, 255, 0.75);
+    color: #41a6cc; /* Light blue color for the heading */
     margin-bottom: 20px;
     text-align: center;
-}
+    border-bottom: 2px solid #29102e; /* Dark purple color for the underline */
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .timeline-item {
+    background-color: #3c84ad; /* Dark blue color for the boxes */
+    color: #af7fd3; /* Light purple color for the text */
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .timeline-item .timeline-date {
+    color: #562360; /* Dark purple color for the dates */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-item .timeline-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-item .timeline-description {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  

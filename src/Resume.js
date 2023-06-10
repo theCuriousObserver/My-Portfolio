@@ -2,6 +2,9 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import NebulaBackground from './Nebula-background.jpeg';
 import 'react-vertical-timeline-component/style.min.css';
+import './Resume.css';
+
+
 
 const Resume = () => {
     return (
@@ -15,13 +18,6 @@ const Resume = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Cyber Security Project Manager</h3>
                     <h4 className="vertical-timeline-element-subtitle">Cyber Waves BV, Amsterdam, Netherlands</h4>
-                    <p>
-                        Responsibilities:
-                        <ul>
-                            <li>Responsibility 1</li>
-                            <li>Responsibility 2</li>
-                        </ul>
-                    </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
@@ -31,13 +27,6 @@ const Resume = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Sales & Marketing Intern</h3>
                     <h4 className="vertical-timeline-element-subtitle">HighRadius, Hyderabad, India</h4>
-                    <p>
-                        Responsibilities:
-                        <ul>
-                            <li>Responsibility 1</li>
-                            <li>Responsibility 2</li>
-                        </ul>
-                    </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
@@ -47,13 +36,6 @@ const Resume = () => {
                 >
                     <h3 className="vertical-timeline-element-title">WordPress Developer Intern</h3>
                     <h4 className="vertical-timeline-element-subtitle">R&C Estate, Cairo, Egypt</h4>
-                    <p>
-                        Responsibilities:
-                        <ul>
-                            <li>Responsibility 1</li>
-                            <li>Responsibility 2</li>
-                        </ul>
-                    </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
@@ -63,13 +45,6 @@ const Resume = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Master of Science, Cyber Security</h3>
                     <h4 className="vertical-timeline-element-subtitle">University of Birmingham, Birmingham, United Kingdom</h4>
-                    <p>
-                        Achievements:
-                        <ul>
-                            <li>Achievement 1</li>
-                            <li>Achievement 2</li>
-                        </ul>
-                    </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
@@ -79,13 +54,6 @@ const Resume = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Bachelor of Technology, Information Technology</h3>
                     <h4 className="vertical-timeline-element-subtitle">Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha</h4>
-                    <p>
-                        Achievements:
-                        <ul>
-                            <li>Achievement 1</li>
-                            <li>Achievement 2</li>
-                        </ul>
-                    </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
