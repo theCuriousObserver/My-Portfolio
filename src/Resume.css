@@ -10,12 +10,12 @@
     flex-direction: column;
     position: relative;
     min-height: 100vh;
+    padding-top: 3%;
   }
   
   .resume-content {
     position: relative;
     z-index: 1;
-    margin-top: 3%; /* This will push the heading down */
   }
   
   .resume-heading-container {
