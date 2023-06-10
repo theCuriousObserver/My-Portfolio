@@ -48,7 +48,11 @@
   margin-bottom: 20px;
   align-self: center;
   width: 60%;
-  text-indent: 2em; 
+}
+
+.about-me-text .paragraph {
+  display: block;
+  text-indent: 2em;
 }
 
 .about-me-details {
