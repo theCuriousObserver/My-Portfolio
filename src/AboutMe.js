@@ -11,10 +11,10 @@ const AboutMe = () => {
                 <div className="row">
                     <div className="col-lg-8">
                         <h2 className="about-me-subheading">I'm <span className="highlight">Pallav Avatarit</span>, a Cyber Security Professional</h2>
-                        <p>
+                        <p className="paragraph">
                             I am a seasoned Cyber Security Specialist at Cyber Waves BV in the Netherlands. With a master's degree from the University of Birmingham, I have comprehensive expertise in data security, network configuration, OT/IT security, incident response, and threat mitigation.
                         </p>
-                        <p>
+                        <p className="paragraph">
                             My strong communication skills allow for effective collaboration, while my attention to detail ensures potential threats are addressed. I am adaptable, flexible, and committed to continuous learning to stay abreast of industry trends. Alongside my technical skills, I excel in time management and organization, consistently delivering exceptional customer service and tailored security solutions.
                         </p>
                     </div>
