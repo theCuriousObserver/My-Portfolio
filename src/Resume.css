@@ -64,15 +64,20 @@
   }
   
   .resume .vertical-timeline-element-content .vertical-timeline-element-date {
-    color: #ffffff; /* White color for the date */
-    font-weight: bold; /* Bold font weight for the date */
-    background-color: #212529; /* Dark grey background color for the date box */
-    padding: 5px; /* Padding for the date box */
-    border-radius: 5px; /* Rounded corners for the date box */
+    background: linear-gradient(to right,  #2f2f2f, #000000);
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: inline-block;
   }
   
   .resume .vertical-timeline-element-content {
-    box-shadow: 0 0 0 1px #41a6cc, 0 0 0 3px #af7fd3; /* Blue and purple box shadow */
-    background-color: #212529; /* Dark grey background color for the box */
+    background: linear-gradient(to right, #000428, #004e92);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   }
   
