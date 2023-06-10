@@ -1,10 +1,11 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import NebulaBackground from './Nebula-background.jpeg';
 import 'react-vertical-timeline-component/style.min.css';
 
 const Resume = () => {
     return (
-        <div className="resume" id="resume">
+        <div className="resume" id="resume" style={{ backgroundImage: `url(${NebulaBackground})` }}>
             <h1>Resume</h1>
             <VerticalTimeline>
                 <VerticalTimelineElement
