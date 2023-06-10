@@ -56,29 +56,28 @@
 }
 
 .about-me-details {
-  max-width: 70%;
+  max-width: 50%;
   margin-top: 50px;
-  padding-left: 20px;
-  align-self: center;
+  padding: 20px;
+  line-height: 1.5;
 }
 
 .about-me-details h2 {
-  font-size: 1em;
+  font-size: 2em;
   color: #fff;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #818486;
+  margin-bottom: 20px;
 }
 
 .about-me-details p {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #fff;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #818486;
+  margin-bottom: 20px;
 }
 
 .about-me-details a {
   color: #fff;
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 .about-me-details .cv-button {
