@@ -26,7 +26,7 @@ const AboutMe = () => {
                 <div className="about-me-details">
                     <h2>Name: Pallav Avatarit</h2>
                     <p>Email: <a href="mailto:pallav.avatarit12@gmail.com">pallav.avatarit12@gmail.com</a></p>
-                    <p>From: Varanasi, India</p>
+                    <p>From: <a href="https://goo.gl/maps/QiURgga8XpTRhMUH7" target="_blank" rel="noopener noreferrer">Varanasi, India </a> </p>
                     <a href="my-cv.pdf" download className="cv-button">Download CV📜</a>
                 </div>
             </div>
