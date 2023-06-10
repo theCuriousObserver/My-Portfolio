@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Resume = () => {
     return (
-        <div className="resume">
+        <div className="resume" id="resume">
             <h1>Resume</h1>
             <VerticalTimeline>
                 <VerticalTimelineElement
