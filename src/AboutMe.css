@@ -5,7 +5,6 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
     height: 100vh;
     
@@ -16,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .about-me-heading-container {
     text-align: center;
 }
