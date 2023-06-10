@@ -3,7 +3,7 @@ import './App.css';
 import Sidebar from './Sidebar';
 import Home from './Home';
 import AboutMe from './AboutMe';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
