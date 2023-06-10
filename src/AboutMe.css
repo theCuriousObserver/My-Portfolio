@@ -10,8 +10,6 @@
 }
 
 .about-me-content {
-  display: flex;
-  justify-content: space-between;
   position: relative;
   z-index: 1;
   margin-top: 3%; /* This will push the heading down */
