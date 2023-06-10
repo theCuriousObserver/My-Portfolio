@@ -1,11 +1,13 @@
 .resume {
-    background-color: #212529;
+    background-image: url('./Nebula-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #fff;
-    padding: 50px;
+    padding: 20px 50px 50px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
     height: 100vh;
 }
