@@ -17,6 +17,10 @@
     align-items: center;
   }
   
+  .about-me-heading-container {
+    text-align: center;
+}
+
   .about-me-heading {
     font-size: 3em;
     color: rgba(255, 255, 255, 0.75);
