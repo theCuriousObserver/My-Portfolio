@@ -9,7 +9,7 @@ import './Resume.css';
 const Resume = () => {
     return (
         <div className="resume" id="resume" style={{ backgroundImage: `url(${NebulaBackground})` }}>
-            <h1 className="resume-heading"><span className="underline">Resume</span></h1>
+            <h1 className="resume-heading">Resume</h1>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
