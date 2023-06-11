@@ -1,63 +1,47 @@
 import React from 'react';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import NebulaBackground from './Nebula-background.jpeg';
-import 'react-vertical-timeline-component/style.min.css';
 import './Resume.css';
 
-
-
 const Resume = () => {
-    return (
-        <div className="resume" id="resume" style={{ backgroundImage: `url(${NebulaBackground})` }}>
-            <h1 className="resume-heading">Resume</h1>
-            <VerticalTimeline>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="February 2023 - Present"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                >
-                    <h3 className="vertical-timeline-element-title">Cyber Security Project Manager</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Cyber Waves BV, Amsterdam, Netherlands</h4>
-                </VerticalTimelineElement>
-
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="April 2020 - July 2020"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                >
-                    <h3 className="vertical-timeline-element-title">Sales & Marketing Intern</h3>
-                    <h4 className="vertical-timeline-element-subtitle">HighRadius, Hyderabad, India</h4>
-                </VerticalTimelineElement>
-
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="December 2019 - January 2020"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                >
-                    <h3 className="vertical-timeline-element-title">WordPress Developer Intern</h3>
-                    <h4 className="vertical-timeline-element-subtitle">R&C Estate, Cairo, Egypt</h4>
-                </VerticalTimelineElement>
-
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="September 2021 - September 2022"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                >
-                    <h3 className="vertical-timeline-element-title">Master of Science, Cyber Security</h3>
-                    <h4 className="vertical-timeline-element-subtitle">University of Birmingham, Birmingham, United Kingdom</h4>
-                </VerticalTimelineElement>
-
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="August 2017 - May 2021"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                >
-                    <h3 className="vertical-timeline-element-title">Bachelor of Technology, Information Technology</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha</h4>
-                </VerticalTimelineElement>
-            </VerticalTimeline>
+  return (
+    <div className="resume" id="resume">
+      <h1 className="resume-heading">Resume</h1>
+      <div className="timeline">
+        <div className="timeline-column">
+          <h2 className="timeline-heading">Education</h2>
+          {/* Add your education timeline elements here */}
+          <div className="timeline-element">
+            <h3 className="timeline-element-title">Master of Science, Cyber Security</h3>
+            <h4 className="timeline-element-subtitle">University of Birmingham, Birmingham, United Kingdom</h4>
+            <p className="timeline-element-date">September 2021 - September 2022</p>
+          </div>
+          <div className="timeline-element">
+            <h3 className="timeline-element-title">Bachelor of Technology, Information Technology</h3>
+            <h4 className="timeline-element-subtitle">Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha</h4>
+            <p className="timeline-element-date">August 2017 - May 2021</p>
+          </div>
         </div>
-    );
+        <div className="timeline-column">
+          <h2 className="timeline-heading">Experience</h2>
+          {/* Add your experience timeline elements here */}
+          <div className="timeline-element">
+            <h3 className="timeline-element-title">Cyber Security Project Manager</h3>
+            <h4 className="timeline-element-subtitle">Cyber Waves BV, Amsterdam, Netherlands</h4>
+            <p className="timeline-element-date">February 2023 - Present</p>
+          </div>
+          <div className="timeline-element">
+            <h3 className="timeline-element-title">Sales & Marketing Intern</h3>
+            <h4 className="timeline-element-subtitle">HighRadius, Hyderabad, India</h4>
+            <p className="timeline-element-date">April 2020 - July 2020</p>
+          </div>
+          <div className="timeline-element">
+            <h3 className="timeline-element-title">WordPress Developer Intern</h3>
+            <h4 className="timeline-element-subtitle">R&C Estate, Cairo, Egypt</h4>
+            <p className="timeline-element-date">December 2019 - January 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Resume;
