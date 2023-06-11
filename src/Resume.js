@@ -4,6 +4,7 @@ import './Resume.css';
 const Resume = () => {
   return (
     <div className="resume" id="resume">
+    <div className="resume-container">
       <h1 className="resume-heading">Resume</h1>
       <div className="timeline">
         <div className="timeline-column">
@@ -19,6 +20,7 @@ const Resume = () => {
             <h4 className="timeline-element-subtitle">Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha</h4>
             <p className="timeline-element-date">August 2017 - May 2021</p>
           </div>
+          </div>   
         </div>
         <div className="timeline-column">
           <h2 className="timeline-heading">Experience</h2>

@@ -13,6 +13,18 @@
   padding-top: 3%;
 }
 
+.resume-container {
+  max-width: 80%; /* Adjust as needed */
+  margin: 0 auto; /* Centers the container */
+}
+
+@media (min-width: 768px) {
+  .resume-container {
+    max-width: 800px; /* Adjust as needed */
+  }
+}
+
+
 .resume-heading {
   border: 2px solid #000000;
   padding: 5px 10px;
