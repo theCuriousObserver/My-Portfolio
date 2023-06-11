@@ -23,11 +23,23 @@
     color: rgba(255, 255, 255, 0.75);
     margin-bottom: 20px;
     text-align: center;
-    text-decoration: underline; /* This will add the underline */
-    text-decoration-color: #000; /* This will make the underline black */
-    display: inline-block;
+  }
+  
+  .underline {
+    position: relative;
     padding-bottom: 10px;
   }
+  
+  .underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+  }
+  
   
 
   .resume-heading-container {
