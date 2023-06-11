@@ -1,21 +1,18 @@
 .skills {
     padding: 20px;
-    .skills {
-        padding: 20px;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Sky-background.jpeg') no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-      }
-      
-      /* Rest of your CSS */
-      
+    background: url('./Sky-background.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff; /* White color for the text */
   }
   
   .skills-heading {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 2.5em; /* Adjust as needed */
+    color: #ffdd00; /* Yellow color for the main heading */
   }
   
   .skills-section {
@@ -24,5 +21,7 @@
   
   .skills-subheading {
     margin-bottom: 10px;
+    font-size: 2em; /* Adjust as needed */
+    color: #ffdd00; /* Yellow color for the subheadings */
   }
   
