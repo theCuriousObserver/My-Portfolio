@@ -6,8 +6,6 @@
   color: #fff;
   padding: 20px 50px 50px;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
   position: relative;
   min-height: 100vh;
   padding-top: 3%;
@@ -18,12 +16,10 @@
   margin: 0 auto; /* Centers the container */
 }
 
-@media (min-width: 768px) {
-  .resume-container {
-    max-width: 800px; /* Adjust as needed */
-  }
+.timeline {
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .resume-heading {
   border: 2px solid #000000;
@@ -32,11 +28,6 @@
   color: #fff;
   margin-bottom: 20px;
   display: inline-block;
-}
-
-.timeline {
-  display: flex;
-  justify-content: space-between;
 }
 
 .timeline-column {
