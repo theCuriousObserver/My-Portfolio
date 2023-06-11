@@ -20,7 +20,7 @@
   
   .resume-heading {
     font-size: 3em;
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -37,7 +37,7 @@
     bottom: 0;
     height: 2px;
     width: 100%;
-    background-color: #000;
+    background-color: black;
   }
   
   
