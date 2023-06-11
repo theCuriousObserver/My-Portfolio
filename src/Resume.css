@@ -23,24 +23,16 @@
     color: rgba(255, 255, 255, 0.75);
     margin-bottom: 20px;
     text-align: center;
-    border-bottom: 2px solid #000; /* Adjust the color and thickness as needed */
+    text-decoration: underline; /* This will add the underline */
+    text-decoration-color: #000; /* This will make the underline black */
     display: inline-block;
     padding-bottom: 10px;
   }
   
+
   .resume-heading-container {
     text-align: center;
     margin-top: 5%; /* This will push the heading down */
-  }
-  
-  .resume-heading {
-    font-size: 3em;
-    color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 20px;
-    text-align: center;
-    border-bottom: 2px solid #28a846; /* Adjust the color and thickness as needed */
-    display: inline-block;
-    padding-bottom: 10px;
   }
   
   .resume .vertical-timeline-element--work .vertical-timeline-element-icon .icon {
