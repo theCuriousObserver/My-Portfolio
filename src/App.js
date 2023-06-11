@@ -4,6 +4,7 @@ import Sidebar from './Sidebar';
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Resume from './Resume';
+import Skills from './Skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Home />
         <AboutMe />
         <Resume />
+        <Skills />
         {/* Other components go here */}
       </main>
     </div>

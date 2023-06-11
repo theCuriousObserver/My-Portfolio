@@ -1,0 +1,28 @@
+.skills {
+    padding: 20px;
+    .skills {
+        padding: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Sky-background.jpeg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      
+      /* Rest of your CSS */
+      
+  }
+  
+  .skills-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills-section {
+    margin-bottom: 20px;
+  }
+  
+  .skills-subheading {
+    margin-bottom: 10px;
+  }
+  
