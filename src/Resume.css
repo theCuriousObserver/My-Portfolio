@@ -18,6 +18,16 @@
     z-index: 1;
   }
   
+  .resume-heading {
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #000; /* Adjust the color and thickness as needed */
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
   .resume-heading-container {
     text-align: center;
     margin-top: 5%; /* This will push the heading down */
