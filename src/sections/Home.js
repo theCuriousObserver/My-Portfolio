@@ -16,7 +16,7 @@ const Home = () => {
                 {/* Subheading */}
                 <h2 className="subheading">Cyber Security Professional working at Cyber Waves BV, Amsterdam</h2>
                 {/* Download CV Button */}
-                <a href="src/components/my-cv.pdf" download className="cv-button">Download My CV 📜</a>
+                <a href="../components/my-cv.pdf" download className="cv-button">Download My CV 📜</a>
                 {/* Down Arrow */}
                 <a href="#about-me">
                     <img src={downArrowImage} alt="Down Arrow" className="down-arrow" />
