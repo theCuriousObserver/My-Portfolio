@@ -1,5 +1,8 @@
 import React from 'react';
 import './ContactMe.css';
+import linkedinIcon from './linkedin.svg';
+import githubIcon from './github.svg';
+import tryhackmeIcon from './tryhackme.svg';
 
 const ContactMe = () => {
   return (
@@ -16,7 +19,15 @@ const ContactMe = () => {
           </div>
           
           <div className="social-icons">
-            {/* Add social icons here */}
+            <a href="https://www.linkedin.com/in/pallav-avatarit" target="_blank" rel="noreferrer">
+              <img src={linkedinIcon} alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/theCuriousObserver" target="_blank" rel="noreferrer">
+              <img src={githubIcon} alt="GitHub" />
+            </a>
+            <a href="https://tryhackme.com/p/pallav.avatarit" target="_blank" rel="noreferrer">
+              <img src={tryhackmeIcon} alt="TryHackMe" />
+            </a>
           </div>
         </div>
         

@@ -18,9 +18,7 @@ const Sidebar = () => {
      <li><a href="#about-me">About Me</a></li>
      <li><a href="#resume">Resume</a></li>
      <li><a href="#skills">Skills</a></li>
-     <li><a href="#certifications">Certifications</a></li>
-     <li><a href="#projects">Projects</a></li>
-     <li><a href="#contact">Contact</a></li>
+     <li><a href="#contact-me">Contact Me</a></li>
     </ul>
    </nav>
    <div className="social-icons">
