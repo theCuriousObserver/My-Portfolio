@@ -1,8 +1,8 @@
 import React from 'react';
 import './Skills.css';
-import KeySkills from './KeySkills';
-import SoftSkills from './SoftSkills';
-import TechnicalSkills from './TechnicalSkills';
+import KeySkills from './internal-sections/Skills/KeySkills';
+import SoftSkills from './internal-sections/Skills/SoftSkills';
+import TechnicalSkills from './internal-sections/Skills/TechnicalSkills';
 
 const Skills = () => {
   return (

@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './Sidebar';
-import Home from './Home';
-import AboutMe from './AboutMe';
-import Resume from './Resume';
-import Skills from './Skills';
-import ContactMe from './ContactMe';
+import Sidebar from './components/Sidebar';
+import Home from './sections/Home';
+import AboutMe from './sections/AboutMe';
+import Resume from './sections/Resume';
+import Skills from './sections/Skills';
+import ContactMe from './sections/ContactMe';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

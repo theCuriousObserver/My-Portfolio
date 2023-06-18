@@ -1,8 +1,8 @@
 import React from 'react';
-import profileImage from './my-image.jpg';
-import linkedinIcon from './linkedin.svg';
-import githubIcon from './github.svg';
-import tryhackmeIcon from './tryhackme.svg';
+import profileImage from '../assets/images/my-image.jpg';
+import linkedinIcon from '../assets/icons/linkedin.svg';
+import githubIcon from '../assets/icons/github.svg';
+import tryhackmeIcon from '../assets/icons/tryhackme.svg';
 import './Sidebar.css';
 
 const Sidebar = () => {

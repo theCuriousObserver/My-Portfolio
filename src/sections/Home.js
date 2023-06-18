@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import astronautImage from './astronaut-skateboarding-in-space.jpg';
-import downArrowImage from './down-arrow.png'; // Replace with the actual path to your down arrow image
+import astronautImage from '../assets/images/astronaut-skateboarding-in-space.jpg';
+import downArrowImage from '../assets/icons/down-arrow.png'; // Replace with the actual path to your down arrow image
 
 const Home = () => {
     return (
@@ -16,7 +16,7 @@ const Home = () => {
                 {/* Subheading */}
                 <h2 className="subheading">Cyber Security Professional working at Cyber Waves BV, Amsterdam</h2>
                 {/* Download CV Button */}
-                <a href="my-cv.pdf" download className="cv-button">Download My CV 📜</a>
+                <a href="src/components/my-cv.pdf" download className="cv-button">Download My CV 📜</a>
                 {/* Down Arrow */}
                 <a href="#about-me">
                     <img src={downArrowImage} alt="Down Arrow" className="down-arrow" />

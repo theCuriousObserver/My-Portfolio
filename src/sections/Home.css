@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-image: url('./cartoon-galaxy-background.jpg');
+    background-image: url('../assets/images/cartoon-galaxy-background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
