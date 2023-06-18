@@ -1,6 +1,6 @@
 .skills {
     padding: 20px;
-    background: url('./Sky-background.jpeg') no-repeat center center fixed; 
+    background: url('./Sky-background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,7 +12,7 @@
     text-align: center;
     margin-bottom: 20px;
     font-size: 2.5em; /* Adjust as needed */
-    color: #ffdd00; /* Yellow color for the main heading */
+    color: #003366; /* Yellow color for the main heading */
   }
   
   .skills-section {
@@ -22,6 +22,6 @@
   .skills-subheading {
     margin-bottom: 10px;
     font-size: 2em; /* Adjust as needed */
-    color: #ffdd00; /* Yellow color for the subheadings */
+    color: #b7410e; /* Yellow color for the subheadings */
   }
   

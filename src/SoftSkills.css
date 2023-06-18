@@ -1,0 +1,16 @@
+.soft-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjust as needed */
+  }
+  
+  .soft-skill-item {
+    padding: 10px 20px; /* Adjust as needed */
+    background-color: #4caf50; /* Adjust as needed */
+    color: white; /* Adjust as needed */
+    border-radius: 25px; /* Adjust as needed */
+    font-size: 1.1em; /* Adjust as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+  }
+  
