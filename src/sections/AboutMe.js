@@ -22,7 +22,7 @@ const AboutMe = () => {
                         <h2>Name: Pallav Avatarit</h2>
                         <p>Email: <a href="mailto:pallav.avatarit12@gmail.com">pallav.avatarit12@gmail.com</a></p>
                         <p>From: <a href="https://goo.gl/maps/QiURgga8XpTRhMUH7" target="_blank" rel="noopener noreferrer">Varanasi, India </a> </p>
-                        <a href="src/components/my-cv.pdf" download className="cv-button">Download CV📜</a>
+                        <a href="src/assets/pallav-resume.pdf" download className="cv-button">Download CV📜</a>
                     </div>
                 </div>
             </div>
