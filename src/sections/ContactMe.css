@@ -24,6 +24,9 @@
 .contact-details p::before {
   content: url('../assets/icons/contact.png');
   margin-right: 10px;
+  width: 20px; /* Set the width of the icon */
+  height: 20px; /* Set the height of the icon */
+  display: inline-block; /* Make it an inline block element */
 }
 
 .social-icons a {
@@ -35,7 +38,11 @@
   transform: scale(1.1);
 }
 
-/* ... rest of the styles ... */
+.email-icon, .phone-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
 
   
   .social-icons img {
