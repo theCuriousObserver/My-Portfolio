@@ -65,4 +65,17 @@
   .contact-form button {
     padding: 10px 20px;
   }
+
+.contact-details-subheading {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.follow-me-subheading {
+  font-size: 1.2em;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
   

@@ -48,12 +48,15 @@
   line-height: 1.5;
   margin-bottom: 20px;
   align-self: center;
+  text-align: justify;
+  margin-left: 2em;
   /* width: 100%; */
 }
 
 .about-me-text .paragraph {
   display: block;
   text-indent: 2em;
+  
 }
 
 .about-me-details {
