@@ -15,9 +15,10 @@ const ContactMe = () => {
                   {/* Add subheading for Contact Details */}
                   <h2 className="contact-details-subheading">Contact Details</h2>
                   <div className="contact-details">
-                      <p>Email: pallav.avatarit12@gmail.com</p>
-                      <p>Phone: +91 7077105233</p>
-                  </div>
+    <p><img src="../assets/icons/gmail.png" alt="Email Icon" /> Email: pallav.avatarit12@gmail.com</p>
+    <p><img src="../assets/icons/phone-call.png" alt="Phone Icon" /> Phone: +91 7077105233</p>
+</div>
+
                   
                   {/* Add subheading for Follow Me */}
                   <h2 className="follow-me-subheading">Follow Me</h2>
